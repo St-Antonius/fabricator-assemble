@@ -639,6 +639,8 @@ var assemble = function () {
 
 		if (collection) {
 			pageMatter.data.baseurl = '..';
+		} else {
+			pageMatter.data.baseurl = '.';
 		}
 
 		// template using Handlebars
