@@ -658,6 +658,8 @@ var assemble = function () {
 
 		if (collection) {
 			pageMatter.data.baseurl = '..';
+		} else {
+			pageMatter.data.baseurl = '.';
 		}
 
 		if(options.baseUrl && options.baseUrl.length > 0) {
